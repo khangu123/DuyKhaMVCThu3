@@ -11,6 +11,6 @@ namespace BigSchool.Models
         public byte Id { get; set; }
         [Required]
         [StringLength(255)]
-        public string Nam { get; set; }
+        public string Name{ get; set; }
     }
 }
